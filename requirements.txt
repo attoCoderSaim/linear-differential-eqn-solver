@@ -10,7 +10,7 @@ click==8.1.7
     # via flask
 colorama==0.4.6
     # via click
-flask==2.3.3
+flask==2.2.5
     # via -r requirements.in
 itsdangerous==2.1.2
     # via flask
@@ -33,7 +33,7 @@ click==8.1.7
 colorama==0.4.6
 contourpy==1.1.1
 cycler==0.11.0
-Flask==2.3.3
+Flask==2.2.5
 Flask-Cors==4.0.0
 fonttools==4.42.1
 gunicorn==21.2.0

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Manual - Linear Differential Equation Solver</title>
+    <title>User Manual</title>
+    <link rel="icon" type="image/x-icon" href="../static/icon.png">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,12 +43,12 @@
             background-color: #0078d4;
             color: white;
             font-weight: bold;
-            font-size: 40px; /* Adjust the font size as needed */
+            font-size: 30px; /* Adjust the font size as needed */
         }
 
         /* Set a fixed height for table rows */
         .manual-table td {
-            height: 50px; /* Fixed height for all rows */
+            height: 45px; /* Fixed height for all rows */
             vertical-align: middle; /* Center content vertically */
         }
 
@@ -57,9 +58,17 @@
             display: block;
             margin: 0 auto; /* Center the image horizontally */
         }
+	.back-button {
+            position: absolute;
+            top: 70px;
+	    left: 30px;
+        }
     </style>
 </head>
 <body>
+    <a href="{{url_for('home')}}" class="back-button">
+        <img src="../static/back-arrow.png" alt="Back to Homepage" width="50" height="50">
+    </a>
     <div class="header">
         <h1>User Manual - Linear Differential Equation Solver</h1>
     </div>
@@ -102,6 +111,10 @@
             <tr>
                 <td><img src="../static/15.png" alt="15.png"></td>
                 <td><img src="../static/16.png" alt="16.png"></td>
+            </tr>
+	    <tr>
+                <td><img src="../static/17.png" alt="17.png"></td>
+                <td><img src="../static/18.png" alt="18.png"></td>
             </tr>
         </tbody>
     </table>

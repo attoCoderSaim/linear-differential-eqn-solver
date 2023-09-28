@@ -64,6 +64,15 @@
             top: 25px;
 	    left: 25px;
         }
+
+	math {
+            display: inline-block;
+            font-size: 20px; /* Adjust the font size as needed */
+        }
+
+        mi {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -76,7 +85,19 @@
     </div>
     <div class="form-container">
         <form action="" method="post">
-            <p>Enter the coefficient of d/dx</p>
+            <p>Enter the coefficient of 
+<math>
+        <mfrac>
+            <mrow>
+                <mi>d</mi>
+            </mrow>
+            <mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+        </mfrac>
+</math>
+</p>
             <input type="text" name="ddx" id="">
             <p>Enter the coefficient of y</p>
             <input type="text" name="c_y" id="">

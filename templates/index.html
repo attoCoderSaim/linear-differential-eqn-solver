@@ -52,7 +52,8 @@
     </div>
     <div class="buttons">
         <!-- <a href="http://localhost:5000/" class="button">Equation Solver</a> -->
-        <a href="{{url_for('solver')}}" class="button">Equation Solver</a>
+        <a href="{{url_for('solver', initial_value = 'False')}}" class="button">Equation Solver</a>
+        <a href="{{url_for('solver', initial_value = 'True')}}" class="button">Equation Solver with initial value</a>
         <!-- <a href="user-manual.html" class="button">User Manual</a> -->
         <a href="{{url_for('manual')}}" class="button">User Manual</a>
         <a href="{{url_for('about')}}" class="button">About Our Team</a>
